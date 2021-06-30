@@ -1,11 +1,27 @@
 <div class="card">
   <h5 class="card-header">{{ weapon.name }}</h5>
-  <div class="card-body">
-    <h5 class="card-title">{{ weapon.props }}</h5>
-    <p class="card-text">
-      Weight: {{ weapon.weight }} lbs <br />
-      Damage: {{ weapon.damage }} + {{ weapon.attribute }} <br />
-      Type: {{ weapon.type }} <br />
-    </p>
+  <div class="row">
+    <div class="col">
+      <div class="card-body">
+        <h5 class="card-title">{{ weapon.props }}</h5>
+        <div>
+          <p class="card-text">
+            Weight: {{ weapon.weight }} lbs <br />
+            Damage: {{ weapon.damage }} + {{ weapon.attribute }} <br />
+            Type: {{ weapon.type }} <br />
+          </p>
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary">Test Weapon</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="damage-test">
+        <h4>Last roll: 5</h4>
+        <hr />
+        <h4>Damage given : 5</h4>
+      </div>
+    </div>
   </div>
 </div>

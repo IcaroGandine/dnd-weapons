@@ -1,0 +1,25 @@
+.damage-test {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    
+}
+
+.col {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 13px;
+}
+
+p.card-text {
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 100%;
+}
