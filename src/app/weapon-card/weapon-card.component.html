@@ -1,11 +1,11 @@
 <div class="card">
-  <h5 class="card-header">Two-Handed Sword</h5>
+  <h5 class="card-header">{{ weapon.name }}</h5>
   <div class="card-body">
-    <h5 class="card-title">Heavy, Two-handed</h5>
+    <h5 class="card-title">{{ weapon.props }}</h5>
     <p class="card-text">
-      Weight: 6 lbs <br />
-      Damage: 2d6 + STR <br />
-      Type: Slashing <br />
+      Weight: {{ weapon.weight }} lbs <br />
+      Damage: {{ weapon.damage }} + {{ weapon.attribute }} <br />
+      Type: {{ weapon.type }} <br />
     </p>
   </div>
 </div>
